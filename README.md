@@ -16,6 +16,8 @@ Este repositorio **solo documenta** los dashboards. Los archivos `.pbix` no se s
 
 ## Fichas
 
+Cada dashboard tiene su ficha completa en la carpeta [`fichas/`](fichas/). Resumen:
+
 ### Cartera Municipal: Cobranza y Conciliación
 Siete páginas: Cartera (1,5‰ y patente, con mapa de SICOGE), Conciliación de Cartera, Títulos de Crédito, Títulos de Predios, Títulos de CEM, Títulos de Predios Rústicos y Títulos Regeneración. Filtros por contribuyente, año de título y fecha de corte. Usa visuales personalizados (Inforiver, HTML Content, Text Filter).
 
