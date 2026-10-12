@@ -1,7 +1,13 @@
 # Dashboards de Power BI: fichas e inventario
 
-**Autor y responsable:** Jorge Jamil Espinoza Villa, Analista Financiero
-**Área:** Dirección General Financiera, M.I. Municipalidad de Guayaquil
+Inventario y documentación de los cuatro dashboards de Power BI de la Dirección General Financiera.
+
+| | |
+|---|---|
+| **Autor y responsable** | Jorge Jamil Espinoza Villa, Analista Financiero |
+| **Área** | Dirección General Financiera, M.I. Municipalidad de Guayaquil |
+| **Plataforma** | Power BI Desktop y servicio de Power BI |
+| **Uso** | Interno. Repositorio privado |
 
 Este repositorio **solo documenta** los dashboards. Los archivos `.pbix` no se suben a GitHub porque pesan entre 183 y 457 MB (el límite de GitHub es 100 MB) y llevan los datos importados dentro. Se guardan en el almacenamiento institucional.
 
@@ -16,7 +22,14 @@ Este repositorio **solo documenta** los dashboards. Los archivos `.pbix` no se s
 
 ## Fichas
 
-Cada dashboard tiene su ficha completa en la carpeta [`fichas/`](fichas/). Resumen:
+| Dashboard | Ficha |
+|---|---|
+| Cartera Municipal: Cobranza y Conciliación | [Ver ficha](fichas/cartera-municipal-cobranza-y-conciliacion.md) |
+| Recaudación Municipal: Tablero Ejecutivo | [Ver ficha](fichas/recaudacion-municipal-tablero-ejecutivo.md) |
+| Facturación y Recaudación TRB, Interagua 2025 | [Ver ficha](fichas/facturacion-y-recaudacion-trb-interagua-2025.md) |
+| Terminal de Transferencia de Víveres: Control de Tickets y Recaudación | [Ver ficha](fichas/terminal-de-transferencia-de-viveres-control-de-tickets-y-recaudacion.md) |
+
+Resumen de cada uno:
 
 ### Cartera Municipal: Cobranza y Conciliación
 Siete páginas: Cartera (1,5‰ y patente), Conciliación de Cartera, Títulos de Crédito, Títulos de Predios, Títulos de CEM, Títulos de Predios Rústicos y Títulos Regeneración. Filtros por contribuyente, año de título y fecha de corte. Usa visuales personalizados (Inforiver, HTML Content, Text Filter).
