@@ -1,5 +1,8 @@
 # Dashboards de Power BI: fichas e inventario
 
+**Autor y responsable:** Jorge Jamil Espinoza Villa, Analista Financiero
+**Área:** Dirección General Financiera, M.I. Municipalidad de Guayaquil
+
 Este repositorio **solo documenta** los dashboards. Los archivos `.pbix` no se suben a GitHub porque pesan entre 183 y 457 MB (el límite de GitHub es 100 MB) y llevan los datos importados dentro. Se guardan en el almacenamiento institucional.
 
 ## Inventario
