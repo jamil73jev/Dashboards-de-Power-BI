@@ -5,7 +5,7 @@
 | Archivo | `Cartera Municipal Cobranza y Conciliación.pbix` (457 MB) |
 | Último cambio | octubre 2026 |
 | Contiene datos personales | Sí: RUC, nombre y código predial |
-| Relación con otros sistemas | La página CARTERA incluye el mapa de [SICOGE](https://github.com/jamil73jev/SICOGE).|
+| Mapa | La página CARTERA incluye un mapa ArcGIS con la ubicación de contribuyentes |
 
 ## Páginas
 
