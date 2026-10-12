@@ -20,7 +20,7 @@ La descripción se deduce del nombre de cada página y de sus visuales; falta va
 | NO TRIBUTARIO | 1 tabla dinámica, 1 visual Inforiver | Ingresos no tributarios |
 | RESOLUCIONES | 1 visual Inforiver | Resoluciones |
 | COACTIVA | 1 árbol de descomposición, 1 tabla dinámica, 1 visual Inforiver | Recaudación por coactiva |
-| GEORREFERENCIACIÓN | 1 visual HTML Content, 1 tabla dinámica | Mapa de puntos de recaudación |
+| GEORREFERENCIACIÓN | 1 visual HTML Content, 1 tabla dinámica | Panel HTML de contribuyentes por tipo de deuda, título, juicio y sector. Documentada en [SICOGE](https://github.com/jamil73jev/SICOGE) |
 
 Los nombres de página del archivo tienen errores ortográficos (`DESGLOCE`, `RECAUDADCION`); conviene corregirlos en el `.pbix`.
 

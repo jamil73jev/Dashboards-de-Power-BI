@@ -22,7 +22,7 @@ Cada dashboard tiene su ficha completa en la carpeta [`fichas/`](fichas/). Resum
 Siete páginas: Cartera (1,5‰ y patente, con mapa de SICOGE), Conciliación de Cartera, Títulos de Crédito, Títulos de Predios, Títulos de CEM, Títulos de Predios Rústicos y Títulos Regeneración. Filtros por contribuyente, año de título y fecha de corte. Usa visuales personalizados (Inforiver, HTML Content, Text Filter).
 
 ### Recaudación Municipal: Tablero Ejecutivo
-Nueve páginas: Desglose por Cajero, Desglose, Principal, Rubros, Puntos de Recaudación, No Tributario, Resoluciones, Coactiva y Georreferenciación. Usa Inforiver, árbol de descomposición, tablas dinámicas y mapa de iconos.
+Nueve páginas: Desglose por Cajero, Desglose, Principal, Rubros, Puntos de Recaudación, No Tributario, Resoluciones, Coactiva y Georreferenciación. Usa Inforiver, árbol de descomposición, tablas dinámicas y un panel HTML de contribuyentes (página GEORREFERENCIACIÓN, documentada en SICOGE).
 
 ### Facturación y Recaudación TRB, Interagua 2025
 Cinco páginas: Análisis Temporal, Perfiles de Pago, Resumen Financiero, Facturación vs Recaudación y Gestión de Recaudación (enero a septiembre 2025). Publicado en el servicio de Power BI.
