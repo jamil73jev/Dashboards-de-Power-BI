@@ -11,6 +11,10 @@ Inventario y documentación de los cuatro dashboards de Power BI de la Direcció
 
 Este repositorio **solo documenta** los dashboards. Los archivos `.pbix` no se suben a GitHub porque pesan entre 183 y 457 MB (el límite de GitHub es 100 MB) y llevan los datos importados dentro. Se guardan en el almacenamiento institucional.
 
+## Fuente de datos
+
+Los cuatro dashboards se alimentan de la **base de datos municipal alojada en un data warehouse**. Los datos se importan al `.pbix`, por eso los archivos pesan cientos de MB.
+
 ## Inventario
 
 | Dashboard | Archivo | Tamaño | Último cambio | Datos personales |
@@ -49,6 +53,6 @@ Cinco páginas: Dashboard (HTML), Resumen (recaudación por caja y equipo, mapa 
 
 ## Pendiente por documentar
 
-- [ ] Fuente de datos de cada dashboard (base, Excel o carpeta) y frecuencia de actualización.
+- [ ] Tablas o vistas de origen de cada dashboard en el data warehouse y frecuencia de actualización.
 - [ ] Responsable y usuarios con acceso.
 - [ ] Significado de la sigla TRB.

@@ -5,6 +5,7 @@
 | Archivo | `Terminal de Transferencia de Víveres Control de Tickets y Recaudación.pbix` (279 MB) |
 | Último cambio | septiembre 2026 |
 | Contiene datos personales | No se observa |
+| Fuente de datos | Base de datos municipal en un data warehouse |
 
 ## Páginas
 
@@ -23,5 +24,5 @@ El nombre de la página `ANALISIS DE TICKTS` tiene un error ortográfico en el a
 Visuales personalizados: HTML Content, filtro de texto.
 
 ## Por documentar
-- Fuente de datos y frecuencia de actualización.
+- Frecuencia de actualización y nombre de las tablas o vistas de origen en el data warehouse.
 - Usuarios con acceso.

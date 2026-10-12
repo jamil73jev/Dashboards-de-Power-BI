@@ -5,6 +5,7 @@
 | Archivo | `Cartera Municipal Cobranza y Conciliación.pbix` (457 MB) |
 | Último cambio | octubre 2026 |
 | Contiene datos personales | Sí: RUC, nombre y código predial |
+| Fuente de datos | Base de datos municipal en un data warehouse |
 | Mapa | La página CARTERA incluye un mapa ArcGIS con la ubicación de contribuyentes |
 
 ## Páginas
@@ -24,6 +25,6 @@ La descripción se deduce del nombre de cada página y de sus visuales; falta va
 Visuales personalizados: mapa Esri (ArcGIS), filtro de texto.
 
 ## Por documentar
-- Fuente de datos y frecuencia de actualización.
+- Frecuencia de actualización y nombre de las tablas o vistas de origen en el data warehouse.
 - Significado de la sigla CEM.
 - Usuarios con acceso.

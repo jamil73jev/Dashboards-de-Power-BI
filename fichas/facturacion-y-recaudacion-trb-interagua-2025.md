@@ -6,6 +6,7 @@
 | Último cambio | febrero 2026 |
 | Periodo | enero a septiembre de 2025 |
 | Contiene datos personales | Por confirmar (nombres de clientes) |
+| Fuente de datos | Base de datos municipal en un data warehouse |
 | Publicación | Publicado en el servicio de Power BI |
 
 ## Páginas
@@ -22,5 +23,5 @@ La descripción se deduce del nombre de cada página y de sus visuales; falta va
 
 ## Por documentar
 - Significado de la sigla TRB.
-- Fuente de datos, responsable de la información y frecuencia de actualización.
+- Responsable de la información, frecuencia de actualización y nombre de las tablas o vistas de origen en el data warehouse.
 - Usuarios con acceso en el servicio de Power BI.

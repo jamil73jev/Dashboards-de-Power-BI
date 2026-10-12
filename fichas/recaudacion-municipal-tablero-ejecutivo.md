@@ -5,6 +5,7 @@
 | Archivo | `Recaudación Municipal Tablero Ejecutivo.pbix` (183 MB) |
 | Último cambio | octubre 2026 |
 | Contiene datos personales | Por confirmar (parece agregado) |
+| Fuente de datos | Base de datos municipal en un data warehouse |
 
 ## Páginas
 
@@ -27,5 +28,5 @@ Los nombres de página del archivo tienen errores ortográficos (`DESGLOCE`, `RE
 Visuales personalizados: Inforiver, HTML Content.
 
 ## Por documentar
-- Fuente de datos y frecuencia de actualización.
+- Frecuencia de actualización y nombre de las tablas o vistas de origen en el data warehouse.
 - Usuarios con acceso.
