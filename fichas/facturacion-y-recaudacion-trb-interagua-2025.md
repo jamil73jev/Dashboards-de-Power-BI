@@ -4,6 +4,7 @@
 |---|---|
 | Archivo | `Facturación y Recaudación TRB, Interagua 2025.pbix` (288 MB) |
 | Último cambio | febrero 2026 |
+| Sigla TRB | Tasa de Recolección de Basura |
 | Periodo | enero a septiembre de 2025 |
 | Contiene datos personales | Por confirmar (nombres de clientes) |
 | Fuente de datos | Base de datos municipal en un data warehouse |
@@ -22,6 +23,5 @@ La descripción se deduce del nombre de cada página y de sus visuales; falta va
 | Gestión de Recaudación | 2 tablas, 2 segmentadores | Seguimiento de la gestión |
 
 ## Por documentar
-- Significado de la sigla TRB.
 - Responsable de la información, frecuencia de actualización y nombre de las tablas o vistas de origen en el data warehouse.
 - Usuarios con acceso en el servicio de Power BI.

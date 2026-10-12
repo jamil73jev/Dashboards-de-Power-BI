@@ -42,6 +42,7 @@ Siete páginas: Cartera (1,5‰ y patente), Conciliación de Cartera, Títulos d
 Nueve páginas: Desglose por Cajero, Desglose, Principal, Rubros, Puntos de Recaudación, No Tributario, Resoluciones, Coactiva y Georreferenciación. Usa Inforiver, árbol de descomposición, tablas dinámicas y un panel HTML de contribuyentes (página GEORREFERENCIACIÓN, documentada en SICOGE).
 
 ### Facturación y Recaudación TRB, Interagua 2025
+TRB: Tasa de Recolección de Basura.
 Cinco páginas: Análisis Temporal, Perfiles de Pago, Resumen Financiero, Facturación vs Recaudación y Gestión de Recaudación (enero a septiembre 2025). Publicado en el servicio de Power BI.
 
 ### Terminal de Transferencia de Víveres: Control de Tickets y Recaudación
@@ -55,4 +56,3 @@ Cinco páginas: Dashboard (HTML), Resumen (recaudación por caja y equipo, mapa 
 
 - [ ] Tablas o vistas de origen de cada dashboard en el data warehouse y frecuencia de actualización.
 - [ ] Responsable y usuarios con acceso.
-- [ ] Significado de la sigla TRB.
