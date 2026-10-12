@@ -48,6 +48,10 @@ Cinco páginas: Análisis Temporal, Perfiles de Pago, Resumen Financiero, Factur
 ### Terminal de Transferencia de Víveres: Control de Tickets y Recaudación
 Cinco páginas: Dashboard (HTML), Resumen (recaudación por caja y equipo, mapa de calor por día y hora), Tickets No Pagados, Análisis de Tickets y Serie de Tickets.
 
+## Informes
+
+Los informes elaborados con estos dashboards están en [`informes/`](informes/): informe semestral de la recaudación de 2026.
+
 ## Convención de nombres
 
 `tema_vAAAAMM.pbix` para el archivo guardado en el almacenamiento institucional, con la fecha del último cambio de contenido.
