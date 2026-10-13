@@ -2,6 +2,12 @@
 
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Las versiones siguen `MAYOR.MENOR.PARCHE`.
 
+## [1.3.0] - 2026-10-13
+
+### Cambiado
+- Referencias a los sistemas relacionados con sus nombres actuales: SICOGE pasa a PIGGC (`Geospatial-Debt-Analytics-Platform`) y SIGECO pasa a SIGCC (`Financial-Collections-Management-System`).
+- `README.md`: el uso se describe como repositorio público de documentación.
+
 ## [1.2.0] - 2026-10-13
 
 ### Agregado

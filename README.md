@@ -8,7 +8,7 @@ Inventario y documentación de los cuatro dashboards de Power BI de la Direcció
 | **Área** | Dirección General Financiera, M.I. Municipalidad de Guayaquil |
 | **Plataforma** | Power BI Desktop y servicio de Power BI |
 | **Fuente de datos** | Base de datos municipal en un data warehouse |
-| **Uso** | Interno. Repositorio privado |
+| **Uso** | Repositorio público de documentación. Restricciones en [`AVISO.md`](AVISO.md) |
 
 Este repositorio **solo documenta** los dashboards. Los archivos `.pbix` no se suben a GitHub porque pesan entre 183 y 457 MB (el límite de GitHub es 100 MB) y llevan los datos importados dentro. Se guardan en el almacenamiento institucional.
 
@@ -26,7 +26,7 @@ flowchart LR
     DW -->|"importación"| T["Facturación y Recaudación<br/>TRB, Interagua 2025"]
     DW -->|"importación"| V["Terminal de Transferencia de Víveres:<br/>Control de Tickets y Recaudación"]
     R --> IR["Informe semestral<br/>de la recaudación de 2026"]
-    R -->|"página GEORREFERENCIACION"| S["SICOGE"]
+    R -->|"página GEORREFERENCIACION"| S["PIGGC"]
     S --> IN["Informe de necesidades<br/>de notificación"]
     T -.->|"publicado"| SP["Servicio de Power BI"]
 ```
@@ -65,7 +65,7 @@ Recaudación Municipal: Tablero Ejecutivo
 ├── NO TRIBUTARIO                 tabla dinámica y visual Inforiver
 ├── RESOLUCIONES                  visual Inforiver
 ├── COACTIVA                      árbol de descomposición, tabla dinámica e Inforiver
-└── GEORREFERENCIACIÓN            panel HTML y tabla dinámica (ver SICOGE)
+└── GEORREFERENCIACIÓN            panel HTML y tabla dinámica (ver PIGGC)
 
 Facturación y Recaudación TRB, Interagua 2025
 ├── Análisis Temporal             gráfico combinado, tabla, tarjeta y 2 segmentadores
@@ -104,7 +104,7 @@ Las **13 consultas** con las que se cargan los dashboards están en [`consultas/
 | Terminal de Transferencia de Víveres | 1 |
 | Facturación y Recaudación TRB, Interagua 2025 | Pendiente |
 
-Las 2 consultas de SIGECO están en el repositorio de SIGECO.
+Las 2 consultas de SIGCC están en el repositorio de SIGCC.
 
 ## Informes
 
@@ -156,8 +156,8 @@ flowchart LR
 
 ## Repositorios relacionados
 
-- [SICOGE](https://github.com/jamil73jev/SICOGE): documentación de la página GEORREFERENCIACIÓN.
-- [SIGECO](https://github.com/jamil73jev/SIGECO): ETL y aplicación de cobranza; sus 2 consultas están en su carpeta `consultas/`.
+- [PIGGC](https://github.com/jamil73jev/Geospatial-Debt-Analytics-Platform): documentación de la página GEORREFERENCIACIÓN.
+- [SIGCC](https://github.com/jamil73jev/Financial-Collections-Management-System): ETL y aplicación de cobranza; sus 2 consultas están en su carpeta `consultas/`.
 
 ## Historial de cambios
 
@@ -165,4 +165,4 @@ Ver [`CHANGELOG.md`](CHANGELOG.md). Los cambios se revisan con la lista de la pl
 
 ## Aviso de uso
 
-Repositorio privado de uso interno. Autoría, usos permitidos y restricciones en [`AVISO.md`](AVISO.md).
+Repositorio público de documentación. Autoría, usos permitidos y restricciones en [`AVISO.md`](AVISO.md).
