@@ -3,7 +3,7 @@
  * CONSULTA: cartera consolidada
  * ----------------------------------------------------------------------------
  * Dashboard / sistema : Cartera Municipal: Cobranza y Conciliación
- * Página / destino    : CARTERA (base de la página GEORREFERENCIACIÓN de SICOGE)
+ * Página / destino    : CARTERA (base de la página GEORREFERENCIACIÓN de PIGGC)
  * Qué responde        : Cartera consolidada: coactiva en deuda más títulos en deuda sin contraparte coactiva. Segmenta por Pareto (A a E), califica la calidad de la ubicación y trae parroquia y sector.
  * Bases de origen     : CONTRIBUYENTE_DM.dbo.Deuda, TITULOS_CREDITO_DM, COACTIVA_DM
  * Granularidad        : Una fila por obligación

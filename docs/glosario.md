@@ -13,7 +13,7 @@ Términos y siglas que aparecen en los dashboards, las fichas y las consultas. S
 | Juzgado | Los juicios coactivos se reparten en cuatro juzgados: primero, segundo, tercero y cuarto |
 | Corte | Fecha a la que se toma una foto de la cartera. Casi todas las consultas usan el último corte disponible |
 | Saldo pendiente | Valor que aún no se ha pagado de una obligación. Cada tipo de cartera lo calcula con su propia regla (ver el encabezado de cada consulta) |
-| Pareto | Orden de los contribuyentes por deuda para ver cuántos concentran el 80 %, 90 %, 95 % y 99 % de la cartera. Ver [SICOGE](https://github.com/jamil73jev/SICOGE/blob/main/docs/segmentacion-y-calidad-de-ubicacion.md) |
+| Pareto | Orden de los contribuyentes por deuda para ver cuántos concentran el 80 %, 90 %, 95 % y 99 % de la cartera. Ver [PIGGC](https://github.com/jamil73jev/Geospatial-Debt-Analytics-Platform/blob/main/docs/segmentacion-y-calidad-de-ubicacion.md) |
 | Reverso | Anulación de un cobro. Resta de la recaudación bruta para dar la neta |
 
 ## Estados de cartera
@@ -35,12 +35,12 @@ Términos y siglas que aparecen en los dashboards, las fichas y las consultas. S
 | DM | *Data mart*: base temática del data warehouse (por ejemplo `RECAUDACION_DM`) |
 | Fact y Dim | Tablas de hechos y de dimensiones de un data mart (`FactCobro`, `DimFechaCorte`) |
 | 15PORMIL | Impuesto del 1,5 por mil |
-| SIGECO | Sistema Integral de Gestión de Cobranza |
-| SICOGE | Gestión de Cartera Basada en Análisis Geoespacial |
+| SIGCC | Sistema Integral de Gestión y Control de Cobranzas (antes SIGECO) |
+| PIGGC | Plataforma de Inteligencia Geoespacial para la Gestión de Cartera (antes SICOGE) |
 | CEM | Contribución Especial de Mejora |
-| CEP | Código Electrónico de Pago. Aparece como código del puesto en la instancia Bahías de SIGECO y como campo en los títulos de regeneración |
+| CEP | Código Electrónico de Pago. Aparece como código del puesto en la instancia Bahías de SIGCC y como campo en los títulos de regeneración |
 | SPI | Sistema de Pagos Interbancarios. Aparece como tipo de transferencia en la recaudación por cajero |
 | AGA | Áreas de Gestión Administrativa. Campo geográfico de la cartera consolidada |
 | PHV | Propiedad horizontal vertical. Parte de la clave catastral |
 | PHH | Propiedad horizontal horizontal. Parte de la clave catastral |
-| Clave catastral | Combinación de `Sector`, `Manzana`, `Lote`, `Division`, `Phv` y `Phh` que identifica un predio en el catastro. De ella nace la ubicación geográfica de la deuda. Ver [SICOGE](https://github.com/jamil73jev/SICOGE/blob/main/docs/segmentacion-y-calidad-de-ubicacion.md) |
+| Clave catastral | Combinación de `Sector`, `Manzana`, `Lote`, `Division`, `Phv` y `Phh` que identifica un predio en el catastro. De ella nace la ubicación geográfica de la deuda. Ver [PIGGC](https://github.com/jamil73jev/Geospatial-Debt-Analytics-Platform/blob/main/docs/segmentacion-y-calidad-de-ubicacion.md) |

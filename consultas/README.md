@@ -2,7 +2,7 @@
 
 Consultas con las que se cargan los datos de los dashboards de Power BI. Cada una se pega en **Power BI > SQL Server > Opciones avanzadas** (o se ejecuta en SQL Server Management Studio) y trae los datos desde el data warehouse municipal.
 
-Hay 13 consultas aquí. Las 2 que alimentan SIGECO están en el repositorio de SIGECO (carpeta `consultas/`).
+Hay 13 consultas aquí. Las 2 que alimentan SIGCC están en el repositorio de SIGCC (carpeta `consultas/`).
 
 ## Cómo se conectan
 
@@ -15,7 +15,7 @@ flowchart LR
     Q1 --> D1["Cartera Municipal:<br/>Cobranza y Conciliación"]
     Q2 --> D2["Recaudación Municipal:<br/>Tablero Ejecutivo"]
     Q3 --> D3["Terminal de Transferencia de Víveres"]
-    D1 -.->|"cartera consolidada"| S["SICOGE:<br/>GEORREFERENCIACIÓN"]
+    D1 -.->|"cartera consolidada"| S["PIGGC:<br/>GEORREFERENCIACIÓN"]
 ```
 
 ## Consultas por dashboard
@@ -26,7 +26,7 @@ Carpeta: `cartera-municipal/`
 
 | Consulta | Qué responde | Página | Granularidad |
 |---|---|---|---|
-| [`cartera-consolidada_v202610.sql`](cartera-municipal/cartera-consolidada_v202610.sql) | Cartera consolidada: coactiva en deuda más títulos en deuda sin contraparte coactiva. Segmenta por Pareto (A a E), califica la calidad de la ubicación y trae parroquia y sector. | CARTERA (base de la página GEORREFERENCIACIÓN de SICOGE) | Una fila por obligación |
+| [`cartera-consolidada_v202610.sql`](cartera-municipal/cartera-consolidada_v202610.sql) | Cartera consolidada: coactiva en deuda más títulos en deuda sin contraparte coactiva. Segmenta por Pareto (A a E), califica la calidad de la ubicación y trae parroquia y sector. | CARTERA (base de la página GEORREFERENCIACIÓN de PIGGC) | Una fila por obligación |
 | [`titulos-sabana-de-trazabilidad-por-juicio_v202610.sql`](cartera-municipal/titulos-sabana-de-trazabilidad-por-juicio_v202610.sql) | Sábana de trazabilidad de títulos de crédito y coactiva. Recupera todos los juicios asociados a cada título y trae controles para no duplicar valores en Power BI. | TÍTULOS DE CRÉDITO | Una fila por título y por juicio coactivo |
 | [`titulos-sabana-de-conciliacion_v202610.sql`](cartera-municipal/titulos-sabana-de-conciliacion_v202610.sql) | Versión de la sábana con una sola fila por título (conserva el juicio más reciente), para conciliar sin multiplicar el valor del título ni el valor total al cobro. | CONCILIACIÓN DE CARTERA y TÍTULOS DE CRÉDITO | Una fila por título |
 | [`titulos-de-predios-urbanos_v202610.sql`](cartera-municipal/titulos-de-predios-urbanos_v202610.sql) | Cartera de predios urbanos al último corte (31 columnas): antigüedad, estado del juicio, rubros actuales, interés, coactiva, costas y saldo de rubros referencial. | TÍTULOS DE PREDIOS | Una fila por título de predio urbano en el último corte |
