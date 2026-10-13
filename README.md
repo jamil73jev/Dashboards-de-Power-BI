@@ -14,7 +14,7 @@ Este repositorio **solo documenta** los dashboards. Los archivos `.pbix` no se s
 
 ## Contenido
 
-[Mapa general](#mapa-general) · [Inventario](#inventario) · [Estructura de páginas](#estructura-de-páginas) · [Fichas](#fichas) · [Consultas SQL](#consultas-sql) · [Informes](#informes) · [Ciclo de mantenimiento](#ciclo-de-mantenimiento-propuesto) · [Convención de nombres](#convención-de-nombres) · [Estructura](#estructura-del-repositorio) · [Pendientes](#pendiente-por-documentar) · [Relacionados](#repositorios-relacionados)
+[Mapa general](#mapa-general) · [Inventario](#inventario) · [Estructura de páginas](#estructura-de-páginas) · [Fichas](#fichas) · [Consultas SQL](#consultas-sql) · [Glosario](docs/glosario.md) · [Informes](#informes) · [Ciclo de mantenimiento](#ciclo-de-mantenimiento-propuesto) · [Convención de nombres](#convención-de-nombres) · [Estructura](#estructura-del-repositorio) · [Pendientes](#pendiente-por-documentar) · [Relacionados](#repositorios-relacionados)
 
 ## Mapa general
 
@@ -131,6 +131,8 @@ flowchart LR
 ├── CHANGELOG.md                     historial de cambios
 ├── .github/                         verificación automática y plantilla de cambios
 ├── fichas/                          una ficha por dashboard: páginas, visuales y pendientes
+├── docs/
+│   └── glosario.md                  términos y siglas
 ├── consultas/                       consultas SQL por dashboard (versiones sanitizadas)
 │   ├── README.md
 │   ├── cartera-municipal/           7 consultas

@@ -2,6 +2,12 @@
 
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Las versiones siguen `MAYOR.MENOR.PARCHE`.
 
+## [1.1.0] - 2026-10-13
+
+### Agregado
+- Glosario de términos y siglas, con las que están por confirmar marcadas como tales.
+- La verificación automática comprueba el nombre y el encabezado de cada consulta SQL.
+
 ## [1.0.0] - 2026-10-13
 
 Primera versión presentada de forma profesional.
