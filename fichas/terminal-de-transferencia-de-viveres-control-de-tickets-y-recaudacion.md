@@ -23,6 +23,14 @@ El nombre de la página `ANALISIS DE TICKTS` tiene un error ortográfico en el a
 
 Visuales personalizados: HTML Content, filtro de texto.
 
+## Consultas
+
+Consultas SQL que cargan los datos de este dashboard. Índice completo en [`consultas/`](../consultas/README.md).
+
+| Página | Consulta |
+|---|---|
+| DASHBOARD, RESUMEN y TICKETS NO PAGADOS | [`ttv-eventos-de-caja-tickets-sin-pago-y-abonados_v202610.sql`](../consultas/terminal-de-transferencia-de-viveres/ttv-eventos-de-caja-tickets-sin-pago-y-abonados_v202610.sql) |
+
 ## Por documentar
-- Frecuencia de actualización y nombre de las tablas o vistas de origen en el data warehouse.
+- Frecuencia de actualización.
 - Usuarios con acceso.

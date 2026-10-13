@@ -27,6 +27,18 @@ Los nombres de página del archivo tienen errores ortográficos (`DESGLOCE`, `RE
 
 Visuales personalizados: Inforiver, HTML Content.
 
+## Consultas
+
+Consultas SQL que cargan los datos de este dashboard. Índice completo en [`consultas/`](../consultas/README.md).
+
+| Página | Consulta |
+|---|---|
+| COACTIVA | [`recaudacion-coactiva_v202610.sql`](../consultas/recaudacion-municipal/recaudacion-coactiva_v202610.sql) |
+| PRINCIPAL y DESGLOSE | [`recaudacion-gerencial-hibrida-2023-2026_v202610.sql`](../consultas/recaudacion-municipal/recaudacion-gerencial-hibrida-2023-2026_v202610.sql) |
+| RUBROS y NO TRIBUTARIO | [`recaudacion-por-rubros_v202610.sql`](../consultas/recaudacion-municipal/recaudacion-por-rubros_v202610.sql) |
+| DESGLOSE POR CAJERO | [`recaudacion-auditoria-por-cajero_v202610.sql`](../consultas/recaudacion-municipal/recaudacion-auditoria-por-cajero_v202610.sql) |
+| PUNTOS DE RECAUDACIÓN | [`recaudacion-por-puntos-de-recaudacion_v202610.sql`](../consultas/recaudacion-municipal/recaudacion-por-puntos-de-recaudacion_v202610.sql) |
+
 ## Por documentar
-- Frecuencia de actualización y nombre de las tablas o vistas de origen en el data warehouse.
+- Frecuencia de actualización.
 - Usuarios con acceso.

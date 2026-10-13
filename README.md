@@ -14,7 +14,7 @@ Este repositorio **solo documenta** los dashboards. Los archivos `.pbix` no se s
 
 ## Contenido
 
-[Mapa general](#mapa-general) · [Inventario](#inventario) · [Estructura de páginas](#estructura-de-páginas) · [Fichas](#fichas) · [Informes](#informes) · [Ciclo de mantenimiento](#ciclo-de-mantenimiento-propuesto) · [Convención de nombres](#convención-de-nombres) · [Estructura](#estructura-del-repositorio) · [Pendientes](#pendiente-por-documentar)
+[Mapa general](#mapa-general) · [Inventario](#inventario) · [Estructura de páginas](#estructura-de-páginas) · [Fichas](#fichas) · [Consultas SQL](#consultas-sql) · [Informes](#informes) · [Ciclo de mantenimiento](#ciclo-de-mantenimiento-propuesto) · [Convención de nombres](#convención-de-nombres) · [Estructura](#estructura-del-repositorio) · [Pendientes](#pendiente-por-documentar)
 
 ## Mapa general
 
@@ -93,6 +93,18 @@ Los nombres de página son los del archivo `.pbix`, incluidos los errores ortogr
 | Facturación y Recaudación TRB, Interagua 2025 | [Ver ficha](fichas/facturacion-y-recaudacion-trb-interagua-2025.md) |
 | Terminal de Transferencia de Víveres: Control de Tickets y Recaudación | [Ver ficha](fichas/terminal-de-transferencia-de-viveres-control-de-tickets-y-recaudacion.md) |
 
+## Consultas SQL
+
+Las **13 consultas** con las que se cargan los dashboards están en [`consultas/`](consultas/README.md), ordenadas por dashboard, con un encabezado que indica qué responde cada una, de qué bases sale y qué página alimenta. Son versiones sanitizadas: sin servidor, RUC ni nombres de personas.
+
+| Dashboard | Consultas |
+|---|:-:|
+| Cartera Municipal: Cobranza y Conciliación | 7 |
+| Recaudación Municipal: Tablero Ejecutivo | 5 |
+| Terminal de Transferencia de Víveres | 1 |
+| Facturación y Recaudación TRB, Interagua 2025 | Pendiente |
+
+Las 2 consultas de SIGECO están en el repositorio de SIGECO.
 
 ## Informes
 
@@ -117,6 +129,11 @@ flowchart LR
 .
 ├── README.md
 ├── fichas/                          una ficha por dashboard: páginas, visuales y pendientes
+├── consultas/                       consultas SQL por dashboard (versiones sanitizadas)
+│   ├── README.md
+│   ├── cartera-municipal/           7 consultas
+│   ├── recaudacion-municipal/       5 consultas
+│   └── terminal-de-transferencia-de-viveres/   1 consulta
 └── informes/
     ├── README.md
     └── informe-semestral-recaudacion-2026_v202608.pdf
@@ -128,5 +145,6 @@ flowchart LR
 
 ## Pendiente por documentar
 
-- [ ] Tablas o vistas de origen de cada dashboard en el data warehouse y frecuencia de actualización.
+- [ ] Frecuencia de actualización de cada dashboard.
+- [ ] Consulta del dashboard de TRB (Interagua 2025).
 - [ ] Responsable y usuarios con acceso.

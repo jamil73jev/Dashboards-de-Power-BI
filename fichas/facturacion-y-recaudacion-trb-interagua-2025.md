@@ -23,5 +23,5 @@ La descripción se deduce del nombre de cada página y de sus visuales; falta va
 | Gestión de Recaudación | 2 tablas, 2 segmentadores | Seguimiento de la gestión |
 
 ## Por documentar
-- Responsable de la información, frecuencia de actualización y nombre de las tablas o vistas de origen en el data warehouse.
+- Responsable de la información, frecuencia de actualización y nombre de las tablas o vistas de origen en el data warehouse. La consulta de este dashboard aún no está en [`consultas/`](../consultas/README.md).
 - Usuarios con acceso en el servicio de Power BI.

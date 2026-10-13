@@ -24,7 +24,21 @@ La descripción se deduce del nombre de cada página y de sus visuales; falta va
 
 Visuales personalizados: mapa Esri (ArcGIS), filtro de texto.
 
+## Consultas
+
+Consultas SQL que cargan los datos de este dashboard. Índice completo en [`consultas/`](../consultas/README.md).
+
+| Página | Consulta |
+|---|---|
+| CARTERA (base de la página GEORREFERENCIACIÓN de SICOGE) | [`cartera-consolidada_v202610.sql`](../consultas/cartera-municipal/cartera-consolidada_v202610.sql) |
+| TÍTULOS DE CRÉDITO | [`titulos-sabana-de-trazabilidad-por-juicio_v202610.sql`](../consultas/cartera-municipal/titulos-sabana-de-trazabilidad-por-juicio_v202610.sql) |
+| CONCILIACIÓN DE CARTERA y TÍTULOS DE CRÉDITO | [`titulos-sabana-de-conciliacion_v202610.sql`](../consultas/cartera-municipal/titulos-sabana-de-conciliacion_v202610.sql) |
+| TÍTULOS DE PREDIOS | [`titulos-de-predios-urbanos_v202610.sql`](../consultas/cartera-municipal/titulos-de-predios-urbanos_v202610.sql) |
+| TÍTULOS DE CEM | [`titulos-de-cem_v202610.sql`](../consultas/cartera-municipal/titulos-de-cem_v202610.sql) |
+| TÍTULOS DE PREDIOS RÚSTICOS | [`titulos-de-predios-rusticos_v202610.sql`](../consultas/cartera-municipal/titulos-de-predios-rusticos_v202610.sql) |
+| TÍTULOS REGENERACIÓN | [`titulos-de-regeneracion_v202610.sql`](../consultas/cartera-municipal/titulos-de-regeneracion_v202610.sql) |
+
 ## Por documentar
-- Frecuencia de actualización y nombre de las tablas o vistas de origen en el data warehouse.
+- Frecuencia de actualización.
 - Significado de la sigla CEM.
 - Usuarios con acceso.
