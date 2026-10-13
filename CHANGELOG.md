@@ -6,7 +6,7 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). L
 
 ### Agregado
 - `AVISO.md`: aviso de uso y propiedad intelectual de este repositorio.
-- Glosario: significado de CEM, CEP, SPI y AGA, y entrada de la clave catastral.
+- Glosario: significado de CEM, CEP, SPI y AGA, y entrada de la clave catastral con PHV y PHH.
 
 ## [1.1.0] - 2026-10-13
 
