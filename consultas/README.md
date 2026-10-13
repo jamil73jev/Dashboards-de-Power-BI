@@ -57,6 +57,7 @@ Carpeta: `terminal-de-transferencia-de-viveres/`
 ## Convenciones
 
 - Nombre del archivo: `tema_vAAAAMM.sql`, en minúsculas y con guiones.
+- Para una consulta nueva, copiar [`_plantilla.sql`](_plantilla.sql), que trae el encabezado estándar y las reglas de sanitización.
 - Cada archivo empieza con un bloque de encabezado: qué responde, dashboard y página, bases de origen, granularidad, autor y versión.
 - Las bases de origen son *marts* del data warehouse (por ejemplo `RECAUDACION_DM`, `COACTIVA_DM`, `TITULOS_CREDITO_DM`).
 - Los archivos de **predios rústicos** y de **regeneración** traen un paso de diagnóstico, la opción A (sábana completa), la opción B (esquema estrella) y medidas DAX sugeridas dentro de comentarios.

@@ -1,0 +1,25 @@
+# Datos de contribuyentes y respaldos (nunca al repositorio)
+*.csv
+*.xlsx
+*.xls
+*.bak
+*.bson
+dump/
+backups/
+
+# Power BI: los archivos pesan cientos de MB y llevan datos importados
+*.pbix
+*.pbit
+
+# Claves y configuración local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.claude/settings.local.json
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/

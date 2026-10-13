@@ -14,7 +14,7 @@ Este repositorio **solo documenta** los dashboards. Los archivos `.pbix` no se s
 
 ## Contenido
 
-[Mapa general](#mapa-general) · [Inventario](#inventario) · [Estructura de páginas](#estructura-de-páginas) · [Fichas](#fichas) · [Consultas SQL](#consultas-sql) · [Informes](#informes) · [Ciclo de mantenimiento](#ciclo-de-mantenimiento-propuesto) · [Convención de nombres](#convención-de-nombres) · [Estructura](#estructura-del-repositorio) · [Pendientes](#pendiente-por-documentar)
+[Mapa general](#mapa-general) · [Inventario](#inventario) · [Estructura de páginas](#estructura-de-páginas) · [Fichas](#fichas) · [Consultas SQL](#consultas-sql) · [Informes](#informes) · [Ciclo de mantenimiento](#ciclo-de-mantenimiento-propuesto) · [Convención de nombres](#convención-de-nombres) · [Estructura](#estructura-del-repositorio) · [Pendientes](#pendiente-por-documentar) · [Relacionados](#repositorios-relacionados)
 
 ## Mapa general
 
@@ -128,6 +128,8 @@ flowchart LR
 ```
 .
 ├── README.md
+├── CHANGELOG.md                     historial de cambios
+├── .github/                         verificación automática y plantilla de cambios
 ├── fichas/                          una ficha por dashboard: páginas, visuales y pendientes
 ├── consultas/                       consultas SQL por dashboard (versiones sanitizadas)
 │   ├── README.md
@@ -148,3 +150,12 @@ flowchart LR
 - [ ] Frecuencia de actualización de cada dashboard.
 - [ ] Consulta del dashboard de TRB (Interagua 2025).
 - [ ] Responsable y usuarios con acceso.
+
+## Repositorios relacionados
+
+- [SICOGE](https://github.com/jamil73jev/SICOGE): documentación de la página GEORREFERENCIACIÓN.
+- [SIGECO](https://github.com/jamil73jev/SIGECO): ETL y aplicación de cobranza; sus 2 consultas están en su carpeta `consultas/`.
+
+## Historial de cambios
+
+Ver [`CHANGELOG.md`](CHANGELOG.md). Los cambios se revisan con la lista de la plantilla de pull request y con la verificación automática de `.github/`.
