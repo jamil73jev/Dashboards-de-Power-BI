@@ -40,5 +40,4 @@ Consultas SQL que cargan los datos de este dashboard. Índice completo en [`cons
 
 ## Por documentar
 - Frecuencia de actualización.
-- Significado de la sigla CEM.
 - Usuarios con acceso.

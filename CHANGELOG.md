@@ -2,6 +2,12 @@
 
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Las versiones siguen `MAYOR.MENOR.PARCHE`.
 
+## [1.2.0] - 2026-10-13
+
+### Agregado
+- `AVISO.md`: aviso de uso y propiedad intelectual de este repositorio.
+- Glosario: significado de CEM, CEP, SPI y AGA, y entrada de la clave catastral.
+
 ## [1.1.0] - 2026-10-13
 
 ### Agregado

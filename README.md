@@ -129,6 +129,7 @@ flowchart LR
 .
 ├── README.md
 ├── CHANGELOG.md                     historial de cambios
+├── AVISO.md                         aviso de uso y propiedad intelectual
 ├── .github/                         verificación automática y plantilla de cambios
 ├── fichas/                          una ficha por dashboard: páginas, visuales y pendientes
 ├── docs/
@@ -161,3 +162,7 @@ flowchart LR
 ## Historial de cambios
 
 Ver [`CHANGELOG.md`](CHANGELOG.md). Los cambios se revisan con la lista de la plantilla de pull request y con la verificación automática de `.github/`.
+
+## Aviso de uso
+
+Repositorio privado de uso interno. Autoría, usos permitidos y restricciones en [`AVISO.md`](AVISO.md).

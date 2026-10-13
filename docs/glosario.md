@@ -37,7 +37,9 @@ Términos y siglas que aparecen en los dashboards, las fichas y las consultas. L
 | 15PORMIL | Impuesto del 1,5 por mil |
 | SIGECO | Sistema Integral de Gestión de Cobranza |
 | SICOGE | Gestión de Cartera Basada en Análisis Geoespacial |
-| CEM | **Por confirmar** |
-| CEP | **Por confirmar** (aparece como código en la instancia Bahías de SIGECO) |
-| SPI | **Por confirmar** (aparece como tipo de transferencia en la recaudación por cajero) |
-| AGA | **Por confirmar** (campo geográfico de la cartera consolidada) |
+| CEM | Contribución Especial de Mejora |
+| CEP | Código Electrónico de Pago. Aparece como código del puesto en la instancia Bahías de SIGECO y como campo en los títulos de regeneración |
+| SPI | Sistema de Pagos Interbancarios. Aparece como tipo de transferencia en la recaudación por cajero |
+| AGA | Áreas de Gestión Administrativa. Campo geográfico de la cartera consolidada |
+| PHV, PHH | Siglas que forman parte de la clave catastral. **Por confirmar** su significado |
+| Clave catastral | Combinación de `Sector`, `Manzana`, `Lote`, `Division`, `Phv` y `Phh` que identifica un predio en el catastro. De ella nace la ubicación geográfica de la deuda. Ver [SICOGE](https://github.com/jamil73jev/SICOGE/blob/main/docs/segmentacion-y-calidad-de-ubicacion.md) |
